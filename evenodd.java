@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class Students {
-	public static void main(String[] args) {
+class evenodd {
+		public static void main(String[] args) {
 		
 		System.out.println("Enter a number: ");
-		Scanner obj = new Scanner(System.in);
+		try(Scanner obj = new Scanner(System.in);){
 		int x = obj.nextInt();
 
 		if(x%2==0) {
@@ -13,6 +13,7 @@ class Students {
 		
 		else {
 			System.out.println("Odd");
+			}
 		}
 	}
 }
