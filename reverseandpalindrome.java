@@ -30,5 +30,6 @@ public class reverseandpalindrome {
 
     public static boolean isPalindrome(int number) {
         return number == reverseNumber(number);
+        
     }
 }
